@@ -1,0 +1,37 @@
+.navbar {
+    width: 100%;
+    height: 62px;
+    /* background-color: red; */
+    position: absolute;
+    z-index: 99;
+}
+.nav_wrap {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.nav_group {
+    display: flex;
+}
+.nav_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 70px;
+}
+.nav_btn {
+    text-align: center;
+    margin: 10px auto;
+}
+.nav_item a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+}
+.text_line {
+    width: 100%;
+    height: 5px;
+    background-color: #FFD13F;
+    border-radius: 20px;
+}
