@@ -2,11 +2,14 @@ import React from 'react'
 
 import { Container } from 'react-bootstrap'
 import './LandingPage.css'
+
+import moon from '../../assets/images/moon.png';
 function LandingPage() {
     return (
         <div className="landing_page">
+            <img className="moon" src={moon} width="1400" alt="moon"></img>
             <Container>
-                <div className="content container">
+                <div className="content">
                     <div className="pic">
                         <img className="img" src="https://cdn.discordapp.com/attachments/557626019247423508/870389553003896902/107698195_2967815813287518_541907919760258090_n.png" alt="pic_profile"></img>
                     </div>

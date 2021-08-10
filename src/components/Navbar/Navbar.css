@@ -35,3 +35,17 @@
     background-color: #FFD13F;
     border-radius: 20px;
 }
+@media screen and (max-width: 1200px) {
+    .nav_wrap {
+        justify-content: center;
+    }
+    .nav_item  {
+        margin: 0 35px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .nav_wrap {
+        display: none;
+    }
+}
