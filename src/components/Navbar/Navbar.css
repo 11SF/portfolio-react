@@ -43,9 +43,17 @@
         margin: 0 35px;
     }
 }
-
+.nav_hamberger {
+    display: none;
+}
 @media screen and (max-width: 576px) {
     .nav_wrap {
+        justify-content: flex-end;
+    }
+    .nav_group {
         display: none;
+    }
+    .nav_hamberger {
+        display: block;
     }
 }

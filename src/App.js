@@ -1,10 +1,12 @@
 import Navbar from './components/Navbar/Navbar';
 import LandingPage from './components/LandingPage/LandingPage'
 import Skills from './components/SKills/Skills'
+import Portfolio from './components/Portfolio/Portfolio';
+import Contact from './components/Contact/Contact';
+
 import './App.css';
 // import { Container } from 'react-bootstrap'
 import { useState } from 'react';
-
 
 function App() {
   const [positionY, setPositonY] = useState(0);
@@ -20,6 +22,8 @@ function App() {
         <Navbar positionY={positionY}/>
         <LandingPage positionY={positionY}/>
         <Skills />
+        <Portfolio />
+        <Contact />
     </div>
   );
 }
