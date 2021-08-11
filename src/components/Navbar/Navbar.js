@@ -5,10 +5,6 @@ import { Container } from 'react-bootstrap'
 import './Navbar.css'
 
 function Navbar({ positionY }) {
-<<<<<<< HEAD
-=======
-    // const debug = () => console.log(positionY);
->>>>>>> dev
     return (
         <div className="navbar fixed-top" style={{backgroundColor:`rgb(0, 18, 32, ${((positionY / 200) * 100)}%)`}}>
             <Container>
