@@ -4,8 +4,6 @@ import { Container } from 'react-bootstrap'
 import './Navbar.css'
 
 function Navbar({ positionY }) {
-    const opacityValue = () => console.log(100 - ((positionY / 200) * 100))
-    // const debug = () => console.log(positionY);
     return (
         <div className="navbar fixed-top" style={{backgroundColor:`rgb(0, 18, 32, ${((positionY / 200) * 100)}%)`}}>
             <Container>
