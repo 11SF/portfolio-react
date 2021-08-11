@@ -10,7 +10,7 @@ function LandingPage({ positionY }) {
     return (
         <div className="landing_page">
             <div className="star_bg">
-                <img className="moon" src={moon} style={{top:`${Math.pow(positionY,1.12)}px`, right:`${positionY}px`, opacity:`${100-((positionY/450)*100)}%`}}  alt="moon"></img>
+                <img className="moon img-fluid" src={moon} style={{top:`${Math.pow(positionY,1.12)}px`, right:`${positionY}px`, opacity:`${100-((positionY/450)*100)}%`}}  alt="moon"></img>
                 <Container>
                     <div className="content">
                         <div className="pic">
