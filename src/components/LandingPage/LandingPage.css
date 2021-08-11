@@ -1,13 +1,12 @@
 .landing_page {
-    background-color: #001220;
+    background: rgb(9,85,97);
+    background: linear-gradient(180deg, rgba(9,85,97,1) 0%, rgba(0,48,85,1) 4%, rgba(0,18,32,1) 100%);
     min-height: 950px;
-    margin-top: -62px;
     color: #ffffff;
-    background-image: url('../../assets/images/stars.png');
 }
 .content {
     margin: 0 auto;
-    margin-top: -62px;
+    /* margin-top: -62px; */
     min-height: 800px;
     /* padding-top: 62px; */
     padding: 150px 0;
@@ -15,6 +14,8 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+    z-index: 0;
 }
 
 .pic {
@@ -30,10 +31,7 @@
 .text_area {
 
     margin-top: 30px;
-    height: 294px;
     width: 477px;
-    /* background-color: red; */
-
 }
 .img {
     max-height: 100%;
@@ -51,8 +49,8 @@
     /* background-size: cover; */
 
     margin-top: -200px;
-
-    z-index: 0;
+    position: relative;
+    z-index: 1;
 }
 .mountain {
     height: 700px;
@@ -60,30 +58,26 @@
     background-image: url('../../assets/images/mountains_behind.png');
 
     margin-top: -550px;
-    z-index: -1;
-}
+    position: relative;
 
+    z-index: 1;
+}
+.star_bg {
+    background-image: url('../../assets/images/stars.png');
+}
 .moon {
-    /* width: 1400px; */
     mix-blend-mode:screen;
     position:absolute;
     z-index: 0;
-    /* transform: translate(1000px); */
+    right: -100px;
+}
+.line_group {
+    margin: 30px 0;
 }
 @media screen and (max-width: 1200px) {
 
     .content {
-        /* margin: 0 auto;
-        margin-top: -62px;
-        height: 800px; */
-        /* padding-top: 62px; */
-        /* padding: 50px;
-        display: flex;
-        flex-wrap: wrap; */
         justify-content: center;
-        /* align-items: center; */
     }
-    .text_area {
-        text-align: center;
-    }
+
 }

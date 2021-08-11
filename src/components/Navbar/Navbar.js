@@ -3,9 +3,11 @@ import React from 'react'
 import { Container } from 'react-bootstrap'
 import './Navbar.css'
 
-function Navbar() {
+function Navbar({ positionY }) {
+    const opacityValue = () => console.log(100 - ((positionY / 200) * 100))
+    // const debug = () => console.log(positionY);
     return (
-        <div className="navbar">
+        <div className="navbar fixed-top" style={{backgroundColor:`rgb(0, 18, 32, ${((positionY / 200) * 100)}%)`}}>
             <Container>
                 <div  className="nav_wrap">
                     <div className="nav_group">
