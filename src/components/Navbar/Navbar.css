@@ -19,6 +19,7 @@
     flex-direction: column;
     justify-content: center;
     margin-left: 70px;
+    cursor: pointer;
 }
 .nav_btn {
     text-align: center;

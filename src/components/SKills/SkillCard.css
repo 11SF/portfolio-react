@@ -1,0 +1,22 @@
+.body {
+    min-width: 140px;
+    /* height: 140px; */
+    /* background-color: #ffffff; */
+    background: linear-gradient(225deg, #ffffff, #e6e6e6);
+    border-radius: 5%;
+    padding: 15px;
+}
+.body .icon {
+    /* background-image: url("../../assets/icons/react-js.svg"); */
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100px;
+}
+.body p {
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 20px;
+    margin: 0;
+}

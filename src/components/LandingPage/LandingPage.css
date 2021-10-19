@@ -17,7 +17,10 @@
     position: relative;
     z-index: 0;
 }
-
+.container {
+    position: relative;
+    z-index: 10;
+}
 .pic {
     padding: 10px;
     max-height: 520px;
@@ -32,6 +35,7 @@
 
     margin-top: 30px;
     width: 477px;
+
 }
 .img {
     max-height: 100%;

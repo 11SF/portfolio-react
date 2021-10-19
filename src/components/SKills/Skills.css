@@ -4,4 +4,15 @@
 }
 .card_area {
     margin: 100px 0;
+    text-align: center;
+}
+.wrap_card_area {
+    margin: 80px 0;
+}
+.flex_card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 100%;
+    justify-content: center;
 }
