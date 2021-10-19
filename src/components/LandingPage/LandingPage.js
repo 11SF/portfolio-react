@@ -82,7 +82,7 @@ function LandingPage({positionY}) {
                 </p>
               </div>
               <p style={{fontSize: "20px", marginBottom: "0"}}>
-                📬 nsfolknsf@gmail.com
+                📬 nawapong.sit@gmail.com
               </p>
               <p style={{fontSize: "20px", marginBottom: "0"}}>
                 📞 +66 623510099
