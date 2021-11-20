@@ -26,7 +26,7 @@ function App() {
         <LandingPage positionY={positionY}/>
         <Skills />
         <Portfolio />
-        <Contact />
+        {/* <Contact /> */}
     </div>
   );
 }

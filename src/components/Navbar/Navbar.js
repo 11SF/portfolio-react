@@ -50,7 +50,7 @@ function Navbar({positionY}) {
               </Link>
               <div className="text_line"></div>
             </div>
-            <div className="nav_item">
+            {/* <div className="nav_item">
               <Link
                 className="nav_btn"
                 to="contact_area"
@@ -61,7 +61,7 @@ function Navbar({positionY}) {
                 Contact
               </Link>
               <div className="text_line"></div>
-            </div>
+            </div> */}
           </div>
           <div className="nav_hamberger">
             <svg

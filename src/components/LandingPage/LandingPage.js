@@ -90,6 +90,9 @@ function LandingPage({positionY}) {
               <a href={cv}>
                 <Button style={{marginTop: "20px"}}>Download CV</Button>
               </a>
+              <a href="https://github.com/11SF">
+                <Button style={{marginTop: "20px",marginLeft: "20px"}}>GitHub</Button>
+              </a> 
             </div>
           </div>
         </Container>
