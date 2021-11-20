@@ -2,7 +2,7 @@ import Navbar from './components/Navbar/Navbar';
 import LandingPage from './components/LandingPage/LandingPage'
 import Skills from './components/SKills/Skills'
 import Portfolio from './components/Portfolio/Portfolio';
-import Contact from './components/Contact/Contact';
+// import Contact from './components/Contact/Contact';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
