@@ -11,6 +11,7 @@ import java_logo from "../assets/icons/icons8-java.svg";
 import python_logo from "../assets/icons/icons8-python.svg";
 import javaScript_logo from "../assets/icons/icons8-javascript.svg";
 import dart_logo from "../assets/icons/icons8-dart.svg";
+import go_logo from "../assets/icons/golang.jpeg";
 
 import react_logo from "../assets/icons/react-js.svg";
 import vue_logo from "../assets/icons/vue-js.svg";
@@ -18,6 +19,7 @@ import express_logo from "../assets/icons/expressjs-ar21.svg";
 import flutter_logo from "../assets/icons/icons8-flutter.svg";
 import tailwind_logo from "../assets/icons/tailwindcss.svg";
 import bootstrap_logo from "../assets/icons/icons8-bootstrap.svg";
+import echo_logo from "../assets/icons/echo.png";
 
 import git_logo from "../assets/icons/icons8-git.svg";
 import docker_logo from "../assets/icons/icons8-docker.svg";
@@ -49,6 +51,10 @@ let languages = [
     icon: dart_logo,
     name: "Dart",
   },
+  {
+    icon: go_logo,
+    name: "Golang",
+  },
 ];
 let frameworks = [
   {
@@ -74,6 +80,10 @@ let frameworks = [
   {
     icon: bootstrap_logo,
     name: "Bootstrap",
+  },
+  {
+    icon: echo_logo,
+    name: "Echo",
   },
 ];
 let tools = [
